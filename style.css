@@ -14,3 +14,6 @@
 .barvalue{font-size:12px;color:var(--muted);height:16px}.bartrack{height:130px;width:min(100%,42px);background:#edf2f8;border-radius:9px 9px 4px 4px;display:flex;align-items:flex-end;overflow:hidden}.barfill{width:100%;background:var(--blue);border-radius:8px 8px 3px 3px;transition:height .3s}.barcol small{color:var(--muted);font-weight:700}
 .analytics-table{display:flex;flex-direction:column;gap:4px}.analytics-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 10px;border-bottom:1px solid var(--line)}.analytics-row>div{min-width:0}.analytics-row strong{display:block;overflow-wrap:anywhere}.analytics-row small{display:block;color:var(--muted);margin-top:4px}.analytics-row>b{color:var(--blue);font-size:20px;white-space:nowrap}
 @media(max-width:700px){.analytics-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.metric{padding:14px}.analytics-bars{height:160px}.bartrack{height:110px}}
+
+/* v0.9.0 sheet folders and visible study-card level */
+.folderbar{align-items:center;flex-wrap:wrap}.study-level{margin-left:8px;font-size:12px;vertical-align:middle}.carditem .tag{vertical-align:middle}
