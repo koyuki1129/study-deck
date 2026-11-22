@@ -4,3 +4,6 @@
 
 /* Study history v0.6.0 */
 .history-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0}.history-stats>div{background:#f5f8fc;border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}.history-stats small{display:block;color:var(--muted);margin-bottom:6px}.history-stats strong{font-size:22px;color:var(--blue)}.history-detail{margin-top:12px;color:var(--muted);font-size:14px}@media(max-width:620px){.history-stats{grid-template-columns:1fr}}
+
+/* Data management v0.7.0 */
+.data-panel h2{margin:0 0 10px}.data-panel p{line-height:1.8;color:#52627b}.data-summary{display:flex;gap:12px;margin:18px 0}.data-summary>div{background:#f5f8fc;border:1px solid var(--line);border-radius:12px;padding:14px 20px;min-width:110px}.data-summary strong{display:block;font-size:24px;color:var(--blue)}.data-summary small{color:var(--muted)}.restore-preview{margin-top:14px}.backup-valid{padding:15px;background:#effaf4;border:1px solid #c6ead2;border-radius:12px;color:#28623c}.backup-valid p{margin:7px 0;color:#28623c}.backup-invalid{padding:15px;background:#fff0f0;border:1px solid #f2c7c7;border-radius:12px;color:#a22}.warning-panel{border-color:#f0d9a8}.warning-panel .toolbar{margin-top:16px}@media(max-width:620px){.data-summary{flex-wrap:wrap}.data-summary>div{flex:1}}
